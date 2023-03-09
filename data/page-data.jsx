@@ -2,6 +2,7 @@ export const personalData = {
 	name: "Syed Muhammad Farhan",
 	role: "Chartered Management Accountant",
 	education: [
+		"Bachelors in Commerce, University of Karachi(2010)",
 		"CMA, Institute of Cost & Managemnet Accoutants of Pakistan(2018)",
 		"Certificate in Land Surveying, STI Islamabad (2007)",
 	],
@@ -33,10 +34,10 @@ export const skills = {
 	hard: [
 		{ icon: "💻", text: "JavaScript" },
 		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
+		{ icon: "🚀🔅🔆⚡", text: "React" },
 		{ icon: "💾", text: "Nextjs" },
 		{ icon: "💾", text: "Nodejs" },
-		{ icon: "📈", text: "Tailwind Data Structures and Algorithms" },
+		{ icon: "📈🌫️", text: "Tailwind Data Structures and Algorithms" },
 	],
 };
 
@@ -57,7 +58,7 @@ export const professionalData = {
 			current: false,
 		},
 		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+			role: "Assistant Draftsman, Survey of Pakistan (2006-Till to Date)",
 			description:
 				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
 			current: false,
