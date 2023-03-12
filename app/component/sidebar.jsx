@@ -16,7 +16,7 @@ const Sidebar = ({ data }) => {
 					className='rounded-full h-full mb-6 bg-white border-1px'
 					src='/img-1.png'
 					alt='farhan'
-					aria-label='julian-wan-WNoLnJo7tS8-unsplash.jpg'
+					aria-label='farhan'
 				/>
 				<h1 className='mb-2'>{name}</h1>
 				<h2 className='mb-8'>{role}</h2>
