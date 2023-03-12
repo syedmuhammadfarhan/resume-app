@@ -16,7 +16,7 @@
 		@apply text-base;
 	}
 	p {
-		@apply text-base;
+		@apply md:text-base;
 	}
 
 	h1,

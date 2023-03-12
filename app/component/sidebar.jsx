@@ -20,8 +20,11 @@ const Sidebar = ({ data }) => {
 				/>
 				<h1 className='mb-2'>{name}</h1>
 				<h2 className='mb-8'>{role}</h2>
-				<p className='mb-2'>{education[0]}</p>
-				<p className='mb-2'>{education[1]}</p>
+				<div clasName='text-center'>
+					<p className='mb-2'>{education[0]}</p>
+					<p className='mb-2'>{education[1]}</p>
+					<p className='mb-2'>{education[2]}</p>
+				</div>
 				<div className='text-white text-center mb-4 mt-4 sm:mt-8'>
 					<h3 className='mb-2'> CONTACT ME</h3>
 					<div className='flex flex-row justify-center gap-2'>
