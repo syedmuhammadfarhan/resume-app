@@ -11,11 +11,11 @@ const Sidebar = ({ data }) => {
 			<div className='text-white flex flex-col p-10 items-center'>
 				<Image
 					priority
-					width={300}
-					height={300}
-					className='rounded-full h-full mb-6'
-					// src='/images/julian-wan-WNoLnJo7tS8-unsplash.jpg'
-					alt='julian-wan-WNoLnJo7tS8-unsplash.jpg'
+					width={200}
+					height={200}
+					className='rounded-full h-full mb-6 bg-white border-1px'
+					src='/img-1.png'
+					alt='farhan'
 					aria-label='julian-wan-WNoLnJo7tS8-unsplash.jpg'
 				/>
 				<h1 className='mb-2'>{name}</h1>
