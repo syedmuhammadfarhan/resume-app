@@ -5,12 +5,14 @@ export const personalData = {
     "- Bachelors in Commerce, University of Karachi(2010)",
     "- CMA, Institute of Cost & Managemnet Accoutants of Pakistan(2018)",
     "- Certificate in Land Surveying, STI Islamabad (2007)",
+    "- Studying Web 3.0 & Metaverse Developement, PIAIC",
   ],
   contactLinks: [
     "mailto:emailto:sm_farhan@outlook.com",
     "https://twitter.com/sm_farhan",
-    "https://www.linkedin.com/in/syed-farhan-34912095/",
-    "https://medium.com/@time2code.ali",
+	  "https://www.linkedin.com/in/syed-farhan-34912095/",
+	"https://github.com/syedmuhammadfarhan",
+    // "https://medium.com/@time2code.ali"
   ],
 };
 
@@ -34,10 +36,10 @@ export const skills = {
   hard: [
     { icon: "💻", text: "JavaScript" },
     { icon: "ʦ", text: "TypeScript" },
-    { icon: "🚀🔅🔆⚡", text: "React" },
+    { icon: "🚀🔆⚡🔅", text: "React" },
     { icon: "💾", text: "Nextjs" },
     { icon: "💾", text: "Nodejs" },
-    { icon: "📈🌫️", text: "Tailwind Data Structures and Algorithms" },
+    { icon: "🌫️", text: "Tailwind Data Structures and Algorithms" },
   ],
 };
 
@@ -48,7 +50,7 @@ export const professionalData = {
       role: "Assistant Draftsman, Survey of Pakistan (2006-Till to Date)",
       description:
         "This position represents the job of a Cartographer. As a cartographer my duties are collecting and visualizing data from various sources, including satellite imagery, aerial photography, and ground surveys, to create and update accurate and detailed user-friendly maps that reflect Earth's current geographic conditions, involving mountains, rivers, and valleys, for individuals, organizations and government entities.",
-      current: false,
+      current: true,
     },
   ],
 };
@@ -59,21 +61,39 @@ export const projectData = {
     {
       name: "Typescript nodejs Calculator",
       description:
-        "Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+        "A Nodejs CLI based typescript program for performing basic arithmetic operations in command line.",
       current: true,
     },
 
     {
-      name: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+      name: "ATM Machine",
       description:
-        "Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-      current: false,
+        "A Nodejs CLI based typescript program for performing ATM machine operations in command line.",
+      current: true,
     },
     {
-      name: "Assistant Draftsman, Survey of Pakistan (2006-Till to Date)",
+      name: "Currency Converter",
       description:
-        "This position represents the job of a Cartographer. As a cartographer my duties are collecting and visualizing data from various sources, including satellite imagery, aerial photography, and ground surveys, to create and update accurate and detailed user-friendly maps that reflect Earth's current geographic conditions, involving mountains, rivers, and valleys, for individuals, organizations and government entities.",
-      current: false,
+        "A Nodejs CLI based typescript program for performing ATM machine operations in command line.",
+      current: true,
+    },
+    {
+      name: "Word Counter",
+      description:
+        "A Nodejs CLI based typescript program for counting number of words as well as characters except whitespace in any given text.",
+      current: true,
+    },
+    {
+      name: "Guess Number",
+      description:
+        "A Nodejs CLI based typescript program to play a game in which participant have to guess the number in given number of chances.",
+      current: true,
+    },
+    {
+      name: "Student Management System",
+      description:
+        "A Nodejs CLI based typescript program for developing a student management system using object oreiented programming techniques",
+      current: true,
     },
   ],
 };
