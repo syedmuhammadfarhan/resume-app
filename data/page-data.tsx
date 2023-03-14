@@ -10,9 +10,8 @@ export const personalData = {
   contactLinks: [
     "mailto:emailto:sm_farhan@outlook.com",
     "https://twitter.com/sm_farhan",
-	  "https://www.linkedin.com/in/syed-farhan-34912095/",
-	"https://github.com/syedmuhammadfarhan",
-    // "https://medium.com/@time2code.ali"
+    "https://www.linkedin.com/in/syed-farhan-34912095/",
+    "https://github.com/syedmuhammadfarhan",
   ],
 };
 
@@ -34,12 +33,12 @@ export const skills = {
     { icon: "⌛️", text: "Time management" },
   ],
   hard: [
-    { icon: "💻", text: "JavaScript" },
+    { icon: "💾", text: "JavaScript" },
     { icon: "ʦ", text: "TypeScript" },
-    { icon: "🚀🔆⚡🔅", text: "React" },
-    { icon: "💾", text: "Nextjs" },
-    { icon: "💾", text: "Nodejs" },
-    { icon: "🌫️", text: "Tailwind Data Structures and Algorithms" },
+    { icon: "🔆", text: "Chakra-ui" },
+    { icon: "⚡", text: "Nextjs" },
+    { icon: "🚀", text: "Nodejs" },
+    { icon: "🌫️", text: "Tailwind" },
   ],
 };
 
@@ -92,7 +91,19 @@ export const projectData = {
     {
       name: "Student Management System",
       description:
-        "A Nodejs CLI based typescript program for developing a student management system using object oreiented programming techniques",
+        "A Nodejs CLI based typescript program for developing a student management system using object oreiented programming techniques.",
+      current: true,
+    },
+    {
+      name: "ToDo App",
+      description:
+        "Build a ToDo app in Nextjs 13 by using react and chakra and also deployed on vercel.",
+      current: true,
+    },
+    {
+      name: "Pricing aap",
+      description:
+        "Build a Pricing app in Nextjs 13 by using chakra-ui with the help of given design and also deployed on vercel.",
       current: true,
     },
   ],
