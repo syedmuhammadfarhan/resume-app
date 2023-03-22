@@ -10,7 +10,7 @@
 		@apply  md:text-2xl;
 	}
 	h3 {
-		@apply text-lg;
+		@apply text-lg font-semibold;
 	}
 	h4 {
 		@apply text-base;
@@ -43,7 +43,7 @@ main h2 {
 }
 
 .btn {
-	@apply w-1/2 h-12 text-black font-display uppercase text-base px-4 transition ease-in-out hover:text-yellow hover:bg-black duration-200;
+	@apply w-1/2 h-12 text-black font-display uppercase text-base font-semibold px-4 transition ease-in-out hover:text-yellow hover:bg-black duration-200;
 }
 
 .skill {
