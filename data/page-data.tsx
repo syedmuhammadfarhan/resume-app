@@ -106,5 +106,11 @@ export const projectData = {
         "Build a Pricing app in Nextjs 13 by using chakra-ui with the help of given design and also deployed on vercel.",
       current: true,
     },
+    {
+      name: "Resume App",
+      description:
+        "Build a Resume app in Nextjs 13 by using Tailwind with the help of given design and also deployed on vercel.",
+      current: true,
+    },
   ],
 };
