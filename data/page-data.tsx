@@ -3,9 +3,9 @@ export const personalData = {
   role: "Chartered Management Accountant",
   education: [
     "- Bachelors in Commerce, University of Karachi(2010)",
-    "- CMA, Institute of Cost & Managemnet Accoutants of Pakistan(2018)",
+    "- CMA, Institute of Cost & Management Accoutants of Pakistan(2018)",
     "- Certificate in Land Surveying, STI Islamabad (2007)",
-    "- Studying Web 3.0 & Metaverse Developement, PIAIC",
+    "- Studying Certified Web 3.0 & Metaverse Developer, PIAIC",
   ],
   contactLinks: [
     "mailto:emailto:sm_farhan@outlook.com",
@@ -19,7 +19,7 @@ export const aboutMe = {
   title: "About Me",
   body: [
     "As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in both science and commerce. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-    "When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+    "When I'm not working, I enjoy playing games, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
   ],
 };
 
@@ -33,12 +33,12 @@ export const skills = {
     { icon: "⌛️", text: "Time management" },
   ],
   hard: [
-    { icon: "💾", text: "JavaScript" },
+    { icon: "🔰", text: "JavaScript" },
     { icon: "ʦ", text: "TypeScript" },
     { icon: "🔆", text: "Chakra-ui" },
-    { icon: "⚡", text: "Nextjs" },
-    { icon: "🚀", text: "Nodejs" },
-    { icon: "🌫️", text: "Tailwind" },
+    { icon: "🚀", text: "Nextjs" },
+    { icon: "📦", text: "Nodejs" },
+    { icon: "⚡", text: "Tailwind" },
   ],
 };
 
@@ -58,40 +58,40 @@ export const projectData = {
   title: "Projects",
   experiences: [
     {
-      name: "Typescript nodejs Calculator",
+      name: "Calculator",
       description:
-        "A Nodejs CLI based typescript program for performing basic arithmetic operations in command line.",
+        "A Nodejs CLI based Typescript program for performing basic arithmetic operations in command line.",
       current: true,
     },
 
     {
       name: "ATM Machine",
       description:
-        "A Nodejs CLI based typescript program for performing ATM machine operations in command line.",
+        "A Nodejs CLI based Typescript program for performing ATM machine operations in command line.",
       current: true,
     },
     {
       name: "Currency Converter",
       description:
-        "A Nodejs CLI based typescript program for performing ATM machine operations in command line.",
+        "A Nodejs CLI based Typescript program for performing ATM machine operations in command line.",
       current: true,
     },
     {
       name: "Word Counter",
       description:
-        "A Nodejs CLI based typescript program for counting number of words as well as characters except whitespace in any given text.",
+        "A Nodejs CLI based Typescript program for counting number of words as well as characters except whitespace in any given text.",
       current: true,
     },
     {
       name: "Guess Number",
       description:
-        "A Nodejs CLI based typescript program to play a game in which participant have to guess the number in given number of chances.",
+        "A Nodejs CLI based Typescript program to play a game in which participant have to guess the number in given number of chances.",
       current: true,
     },
     {
       name: "Student Management System",
       description:
-        "A Nodejs CLI based typescript program for developing a student management system using object oreiented programming techniques.",
+        "A Nodejs CLI based Typescript program for developing a student management system using object oreiented programming techniques.",
       current: true,
     },
     {
@@ -101,7 +101,7 @@ export const projectData = {
       current: true,
     },
     {
-      name: "Pricing aap",
+      name: "Pricing UI",
       description:
         "Build a Pricing app in Nextjs 13 by using chakra-ui with the help of given design and also deployed on vercel.",
       current: true,
