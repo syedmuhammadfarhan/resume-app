@@ -1,6 +1,17 @@
 "use client";
 import React, { useState } from "react";
 
+type skills = {data:{
+  soft: {
+    icon: string;
+    text: string;
+  }[];
+  hard: {
+    icon: string;
+    text: string;
+  }[];
+}};
+
 const Skills = ({ data }: any) => {
   const [activeTab, setActiveTab] = useState("soft");
 

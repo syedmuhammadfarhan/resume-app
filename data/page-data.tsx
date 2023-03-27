@@ -2,8 +2,8 @@ export const personalData = {
   name: "Syed Muhammad Farhan",
   role: "Chartered Management Accountant",
   education: [
-    "- Bachelors in Commerce, University of Karachi(2010)",
     "- CMA, Institute of Cost & Management Accoutants of Pakistan(2018)",
+    "- Bachelors in Commerce, University of Karachi(2010)",
     "- Certificate in Land Surveying, STI Islamabad (2007)",
     "- Studying Certified Web 3.0 & Metaverse Developer, PIAIC",
   ],
