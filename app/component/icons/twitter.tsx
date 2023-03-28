@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Twitter = ({ className }: { className: string }) => (
+export const Twitter = ({ className }: any) => (
   <svg
     className={className}
     xmlns="http://www.w3.org/2000/svg"
