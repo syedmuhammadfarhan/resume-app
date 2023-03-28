@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Github = ({ className }: any) => (
+export const Github = ({ className }: { className: string }) => (
   <svg
     fill="#ffffff"
     width="40px"

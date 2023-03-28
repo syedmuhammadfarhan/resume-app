@@ -27,10 +27,10 @@ const Sidebar = ({
           alt="farhan"
           aria-label="farhan"
         />
-        <h1 className="mb-2 text-center font-bold">{name}</h1>
+        <h1 className="mb-2 text-center font-bold font-sans">{name}</h1>
         <h2 className="mb-8 text-center font-semibold">{role}</h2>
         <div className="text-center">
-          <p className="mb-2 font-semibold">{education[0]}</p>
+          <p className="mb-2">{education[0]}</p>
           <p className="mb-2">{education[1]}</p>
           <p className="mb-2">{education[2]}</p>
           <p className="mb-2">{education[3]}</p>
